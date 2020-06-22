@@ -5,6 +5,8 @@ zerorpc-node
 
 ZeroRPC is a communication layer for distributed systems. zerorpc-node is a port of the original [ZeroRPC](https://github.com/0rpc/zerorpc-python) for node.js. We have full client and server support for version 3 of the protocol, and clients/servers written in the Python version can communicate transparently with those written in node.js. This project is in alpha.
 
+This version of zerorpc-node was forked for compatibility with electron-react-boilerplate. Currently supports Electron 3, 4, 5, and 6. Underscore updated to 1.10.x.
+
 To install the package:
 
 Make sure you have [ZeroMQ](https://github.com/zeromq/libzmq) installed.
